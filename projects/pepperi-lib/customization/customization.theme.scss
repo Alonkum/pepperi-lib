@@ -1,0 +1,42 @@
+
+// @import './address/address.component.theme.scss';
+// @import './pepperi-attachment/pepperi-attachment.component.theme.scss';
+// @import './pepperi-button/pepperi-button.component.theme.scss';
+// @import './pepperi-checkbox/pepperi-checkbox.component.theme.scss';
+// @import './pepperi-date/pepperi-date.component.theme.scss';
+@import './field-title/field-title.component.theme.scss';
+// @import './pepperi-image/pepperi-image.component.theme.scss';
+// @import './pepperi-images-filmstrip/pepperi-images-filmstrip.component.theme.scss';
+// @import './pepperi-indicators/pepperi-indicators.component.theme.scss';
+// @import './pepperi-internal-page/pepperi-internal-page.component.theme.scss';
+// @import './pepperi-menu/pepperi-menu.component.theme.scss';
+// @import './pepperi-quantity-selector/pepperi-quantity-selector.component.theme.scss';
+// @import './pepperi-rich-html-textarea/pepperi-rich-html-textarea.component.theme.scss';
+// @import './select/select.component.theme.scss';
+// @import './pepperi-separator/pepperi-separator.component.theme.scss';
+// @import './pepperi-signature/pepperi-signature.component.theme.scss';
+// @import './pepperi-textarea/pepperi-textarea.component.theme.scss';
+// @import './textbox/textbox.component.theme.scss';
+// @import './textbox-icon/textbox-icon.component.theme.scss';
+
+@mixin declare-customization-theme($pepperi-theme) {
+//     @include pepperi-address-component-theme($pepperi-theme);
+//     @include pepperi-attachment-component-theme($pepperi-theme);
+//     @include pepperi-button-component-theme($pepperi-theme);
+//     @include pepperi-checkbox-component-theme($pepperi-theme);
+//     @include pepperi-date-component-theme($pepperi-theme);
+    @include pepperi-field-title-theme($pepperi-theme);
+//     @include pepperi-image-component-theme($pepperi-theme);
+//     @include pepperi-images-filmstrip-component-theme($pepperi-theme);
+//     @include pepperi-indicators-component-theme($pepperi-theme);
+//     @include pepperi-internal-page-component-theme($pepperi-theme);
+//     @include pepperi-menu-component-theme($pepperi-theme);
+//     @include pepperi-quantity-selector-component-theme($pepperi-theme);
+//     @include pepperi-rich-html-textarea-component-theme($pepperi-theme);
+//     @include pepperi-select-component-theme($pepperi-theme);
+//     @include pepperi-separator-component-theme($pepperi-theme);
+//     @include pepperi-signature-component-theme($pepperi-theme);
+//     @include pepperi-textarea-component-theme($pepperi-theme);
+//     @include pepperi-textbox-component-theme($pepperi-theme);
+//     @include pepperi-textbox-icon-component-theme($pepperi-theme);
+}

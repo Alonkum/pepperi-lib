@@ -1,0 +1,40 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": "./",
+        "outDir": "./dist/out-tsc",
+        "sourceMap": true,
+        "declaration": false,
+        "downlevelIteration": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "target": "es2015",
+        "module": "es2020",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "lib": [
+            "es2018",
+            "dom"
+        ],
+        "paths": {
+            "pepperi-lib": [
+                "dist/pepperi-lib"
+            ],
+            "pepperi-lib/*": [
+                "dist/pepperi-lib/*"
+            ],
+            "@pepperi/lib/core": [
+                "dist/pepperi-lib/core"
+            ],
+            "@pepperi/lib/core/*": [
+                "dist/pepperi-lib/core/*"
+            ]
+        }
+    },
+    "angularCompilerOptions": {
+        "fullTemplateTypeCheck": true,
+        "strictInjectionParameters": true
+    }
+}
